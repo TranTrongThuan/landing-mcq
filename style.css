@@ -71,7 +71,8 @@ body {
   justify-content: space-between;
   gap: 4rem;
   padding-top: 4rem;
-  padding-bottom: 2rem;
+  padding-bottom: 0;
+  flex: 1;
   /* Bỏ min-height hoặc flex:1 ở đây để tránh kéo dài quá mức */
 }
 
@@ -137,7 +138,7 @@ body {
 
 /* --- Nút Bấm Chính (CTA) --- */
 .cta-group {
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
 }
 
 .btn-primary {
@@ -165,8 +166,8 @@ body {
   grid-template-columns: repeat(6, 1fr); 
   gap: 1.5rem; 
   border-top: 1px solid #eee;
-  padding-top: 3rem;
-  margin-top: 2rem;
+  padding-top: 1.5rem;
+  margin-top: 1rem;
   padding-bottom: 4rem; /* Cách đáy trang một chút */
   width: 100%;
 }
